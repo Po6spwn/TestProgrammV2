@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test Task</string>
+    <string name="login">E-mail</string>
+    <string name="username">UserName</string>
+    <string name="password">******</string>
+    <string name="sign">Создать аккаунт</string>
+    <string name="bu_login">Войти</string>
+    <string name="register">Новенький? Регистрируйся тут!</string>
+
+    <string name="invalid_username">Пустое поле</string>
+    <string name="invalid_email">Неверный формат E-mail</string>
+    <string name="invalid_password">Неверный формат пароля</string>
+
+    <string name="no_text_char">Пожалуйста, подождите, данные загружаются</string>
+    <string name="internetError">Во время загрузки произошла ошибка!</string>
+    <string name="period">Цена доллара (USD) за \n %1$s - %2$s</string>
+    <string name="date_currency">Цена: %1$s \n Дата: %2$s</string>
+
+</resources>

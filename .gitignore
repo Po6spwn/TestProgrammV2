@@ -1,0 +1,9 @@
+package com.example.testprogrammv2.room;
+
+import android.database.Cursor;
+import androidx.room.CoroutinesRoom;
+import androidx.room.EntityInsertionAdapter;
+import androidx.room.RoomDatabase;
+import androidx.room.RoomSQLiteQue;
+# Project exclude paths
+/.gradle/
