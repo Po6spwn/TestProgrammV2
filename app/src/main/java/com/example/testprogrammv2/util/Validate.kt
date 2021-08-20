@@ -23,7 +23,7 @@ class Validate() {
     private fun isPasswordValid (password: String) : Boolean {
         // Хотяб одна заглавная, строчная, цифра.
         val PASSWORD_REGEX = """^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{8,}$""".toRegex()
-        return PASSWORD_REGEX.matches(password!!)
+        return PASSWORD_REGEX.matches(password)
     }
 
     private fun isEmailValid(email: String): Boolean {

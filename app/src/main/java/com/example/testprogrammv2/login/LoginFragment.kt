@@ -60,7 +60,7 @@ class LoginFragment : Fragment() {
         }
 
         email.doAfterTextChanged {
-            logViewModel.isDataChanged(email.text.toString(), null)
+            logViewModel.isDataChanged(email.text.toString())
         }
 
         password.doAfterTextChanged {
