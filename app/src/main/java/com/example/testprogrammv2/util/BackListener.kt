@@ -26,7 +26,7 @@ class BackListener (_view : View, _fragment: FragmentActivity, _lifecycle:Lifecy
         if (backPressed.plus(3000) > System.currentTimeMillis()) {
             fragment.finish()
         }else{
-            Snackbar.make(view, "Нажмите еще раз чтоб выйти", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(view, "Click again to exit", Snackbar.LENGTH_LONG).show()
         }
 
         backPressed = System.currentTimeMillis()

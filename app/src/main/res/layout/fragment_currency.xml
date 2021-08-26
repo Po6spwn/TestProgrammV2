@@ -28,7 +28,7 @@
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textV"
-        android:text="Цена: --\nДата: --"
+        android:text="Price: --\n Date: --"
         android:textSize="24dp" />
 
 

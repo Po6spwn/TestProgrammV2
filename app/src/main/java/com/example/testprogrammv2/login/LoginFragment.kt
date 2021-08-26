@@ -38,7 +38,6 @@ class LoginFragment : Fragment() {
 
         binding = FragmentLoginBinding.inflate(inflater)
 
-
         return binding.root
     }
 
@@ -81,10 +80,10 @@ class LoginFragment : Fragment() {
         logViewModel.liveDataLogin.observe(activity as LifecycleOwner, {
 
             if (it != null) {
-                Snackbar.make(binding.rl1, "Здравствуйте ${it.username}!", Snackbar.LENGTH_LONG).show()
+                Snackbar.make(binding.rl1, "Hello ${it.username}!", Snackbar.LENGTH_LONG).show()
                 navFragment.openFragment(CurrencyFragment.newInstance())
             } else {
-                Snackbar.make(binding.rl1, "Неверный e-mail или пароль", Snackbar.LENGTH_LONG).show()
+                Snackbar.make(binding.rl1, getString(R.string.invalidEmPass), Snackbar.LENGTH_LONG).show()
             }
 
         })

@@ -63,7 +63,7 @@ class RegisterFragment : Fragment() {
                 email.text.toString(),
                 password.text.toString()
             )
-            Snackbar.make(binding.rReg, "Успешная регистрация, ${username.text}!", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(binding.rReg, "Successful registration, ${username.text}!", Snackbar.LENGTH_LONG).show()
             navFragment.openFragment(LoginFragment.newInstance())
         }
 
